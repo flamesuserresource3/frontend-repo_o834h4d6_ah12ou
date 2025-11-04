@@ -1,5 +1,7 @@
 import Hero from "./components/Hero";
 import Services from "./components/Services";
+import Advantages from "./components/Advantages";
+import Benefits from "./components/Benefits";
 import Pricing from "./components/Pricing";
 import ContactCTA from "./components/ContactCTA";
 
@@ -15,6 +17,8 @@ export default function App() {
           </a>
           <nav className="hidden items-center gap-6 text-sm text-gray-700 sm:flex">
             <a href="#servizi" className="hover:text-gray-900">Servizi</a>
+            <a href="#vantaggi" className="hover:text-gray-900">Vantaggi</a>
+            <a href="#benefici" className="hover:text-gray-900">Benefici</a>
             <a href="#pricing" className="hover:text-gray-900">Prezzi</a>
             <a href="#contact" className="hover:text-gray-900">Contatti</a>
             <a
@@ -31,6 +35,8 @@ export default function App() {
       <main>
         <Hero />
         <Services />
+        <Advantages />
+        <Benefits />
         <Pricing />
         <ContactCTA />
       </main>
